@@ -1,0 +1,27 @@
+Informações no site
+
+- Informações sobre TDAH
+- Autismo
+- TOD
+
+Informações sobre:
+
+- O que faz uma Neuropsicopedagoga
+- O que faz uma Psicopedagoga
+
+Links Redes Sociais:
+- Instagram: 2 perfis
+- Whatsapp talvez
+
+*Colocar informações onde será o atendimento*
+
+Vai ser uma foto paralax de fundo.
+Quando clicar em alguma das informações Link,
+fara uma animação do texto subindo.
+
+Cores:
+Marrom pastel: #C2AE80
+Roxo pastel: #8094C2
+Marrom médio: #827E74
+Roxo médio: #585E6D
+Marrom forte: #423B2A
