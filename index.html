@@ -5,47 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/principal.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
 </head>
 <body>
-    <div id="container">
-        <table>
-            <caption>Menu</caption>
-            <tbody>
-                <tr>
-                    <th>Quem Somos</th>
-                </tr>
-                <tr>
-                    <th>O que faz a Neuropsicopedagoga</th>
-                </tr>
-                <tr>
-                    <th>O que faz a Psicopedagoga</th>
-                </tr>
-                <tr><th>Contato</th>
-                </tr>
-                <tr>
-                    <th>Informações adicionais</th>
-                </tr>
-            </tbody>
-        </table>
-
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Neuropsicologia</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Psicopedagoga</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+          </ul>  
+        </div>
+        <div class="login-button">
+        <button> <a href="#">Entrar</a></button>
     </div>
 
-    <!-- <header>
-       <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
-            <ul>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">O que faz Neuropsicopedagoga</a></li>
-                <li><a href="#">O que faz Psicopedagoga</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Informações Adicionais</a></li>
-            </ul>
-        </menu>
-    </header> -->
-    <main>
-        <section>
+    <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+    </div>
+    </nav>
 
-        </section>
-    </main>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Neuropsicologia</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Psicopedagoga</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+          </ul>  
+
+          <div class="login-button">
+            <button> <a href="#">Entrar</a></button>
+        </div>    
+    </div>
+
+  </header>
+
+  <script src="assets/script.js"></script>
+
 </body>
 </html>
