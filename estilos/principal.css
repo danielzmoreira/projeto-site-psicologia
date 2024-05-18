@@ -26,14 +26,6 @@ header {
     padding: 1.5rem 6rem;
 }
 
-.logo {
-   display: none;
-   align-items: center; 
-}
-
-.logo h1 {
-   color: #fff; 
-}
 
 .nav-list {
    display: flex;
@@ -47,7 +39,7 @@ header {
 }
 
 .nav-item {
-  margin: 0 15px;  
+  margin: 0px 15px;  
 }
 
 .nav-link {
@@ -71,6 +63,8 @@ header {
     font-size: 1.1rem;
 }
 
+
+
 .mobile-menu-icon {
    display: none; 
 }
@@ -78,3 +72,52 @@ header {
 .mobile-menu {
     display: none;
 }
+
+
+
+@media screen and (max-width: 760px) {
+    .nav-bar {
+     padding: 1.5rem 4rem;   
+    }
+
+    .nav-item {
+     display: none;   
+    }
+
+    .login-button {
+        display: none;
+    }
+    
+    .mobile-menu-icon {
+      display: block;  
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    
+    .open {
+        display: block;
+    }
+
+}
+
+
