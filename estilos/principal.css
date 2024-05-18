@@ -15,22 +15,44 @@ Marrom forte: #423B2A */
     padding: 0px;
 }
 
-header {
-    background-color: #24252a;
-    box-shadow: 0px 3px 10px #464646;
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #C2AE80;
 }
 
-.nav-bar {
+article {
+    width: 52vw;
+ 
+    margin: 10% 50px 50vw;
+    padding: 2px;
+    display: block;
+    
+}
+
+article h1 {
+
+text-align: center;
+}
+
+article p {
+   text-align: justify;
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6rem;
+    margin: 5px;
+    padding: 5px;
+
 }
 
+header {
+    background-color: #C2AE80;
+    box-shadow: 0px 3px 5px #7070705e;
+}
 
 .nav-list {
    display: flex;
    align-items: center; 
 }
+
 
 .nav-list ul {
     display: flex;
@@ -44,26 +66,17 @@ header {
 
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: 400;
+    
 }
-
-.login-button button {
-  border: none; 
-  background-color: #0187a7; 
-  padding: 10px 15px;
-  border-radius: 5px;
-}
-
-.login-button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
-
+@media screen and (min-width: 760px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.6rem 0rem;
+    }
 
 .mobile-menu-icon {
    display: none; 
@@ -73,13 +86,10 @@ header {
     display: none;
 }
 
-
+}
 
 @media screen and (max-width: 760px) {
-    .nav-bar {
-     padding: 1.5rem 4rem;   
-    }
-
+   
     .nav-item {
      display: none;   
     }
@@ -87,35 +97,16 @@ header {
     .login-button {
         display: none;
     }
-    
-    .mobile-menu-icon {
-      display: block;  
-    }
 
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
     .mobile-menu ul {
      display: flex;
-     flex-direction: column;
-     text-align: center;
-     padding-bottom: 1rem;
+     justify-content: baseline;
+     padding-bottom: 1em;
     }
 
     .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    
-    .open {
-        display: block;
+        display: flex;
+        padding-top: 1rem;
     }
 
 }
