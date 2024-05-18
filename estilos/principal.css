@@ -24,7 +24,7 @@ body {
 article {
     width: 52vw;
  
-    margin: 10% 50px 50vw;
+    margin: 10% 30px 50vw;
     padding: 2px;
     display: block;
     
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-item {
-  margin: 0px 15px;  
+  margin: 0px 10px;  
 }
 
 .nav-link {
@@ -101,7 +101,7 @@ header {
 
     .mobile-menu ul {
      display: flex;
-     justify-content: baseline;
+     justify-content: center;
      padding-bottom: 1em;
     }
 
