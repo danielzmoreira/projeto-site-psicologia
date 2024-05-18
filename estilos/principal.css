@@ -16,7 +16,7 @@ Marrom forte: #423B2A */
 }
 
 body {
-    height: 100vh;
+    height: 98vh;
     width: 100vw;
     background-color: #C2AE80;
 }
@@ -71,7 +71,7 @@ header {
     font-weight: 400;
     
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 600px) {
     .nav-bar {
         display: flex;
         justify-content: space-between;
@@ -88,7 +88,7 @@ header {
 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
    
     .nav-item {
      display: none;   
